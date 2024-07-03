@@ -1,33 +1,21 @@
-# Nullpomino
+# Nulltramino
 
-**NullpoMino** is an open-source action puzzle game that works on the Java platform. It has a wide variety of single-player modes and netplay to allow players to compete over the Internet or LAN.
+**Nulltramino** is an extension of the open-source game [NullpoMino](https://github.com/nullpomino/nullpomino)
 
-### Current stable version
-The current stable version is 7.5.0, which has the following new features: 
-* Screen size option for Slick and Swing (320x240, 640x480, 800x600, 1024x768, etc) 
-* "Dig Challenge" mode where garbage blocks will constantly rise 
-* More single player modes in NetPlay 
-* Much more stable NetServer 
-* New icon 
-* Installer for Windows (uses Inno Setup) 
-* App Bundle for Mac OS X
+## versions
+### v0
+- it is the base game
+- there are no changes
 
-### Download
-* Windows (installer): [NullpoMino7.5.0.exe](https://github.com/nullpomino/nullpomino/releases/download/v7.5.0/NullpoMino7.5.0.exe)
-* Mac OS X: [NullpoMino7.5.0.dmg](https://github.com/nullpomino/nullpomino/releases/download/v7.5.0/NullpoMino7.5.0.dmg)
-* Linux: [NullpoMino7.5.0_linux.tar.gz](https://github.com/nullpomino/nullpomino/releases/download/v7.5.0/NullpoMino7.5.0_linux.tar.gz)
-* Any OS (zip): [NullpoMino7.5.0.zip](https://github.com/nullpomino/nullpomino/releases/download/v7.5.0/NullpoMino7.5.0.zip)
 
-### Building
 
-#### Linux
+## FAQ
+### What's different?
+- Nothing right now, it'll take time to work out how the game works and how i should go about making it as good as i possibly can.
 
-Use maven to compile the project:
+### Is it worth using Nulltramino?
+- No, there's no reason to use this version over the official at this time. Later this might change to a "yes but" or eventually a "absolutely!". I will only be honest.
 
-```bash
-cd nullpomino-parent/
-mvn package
-cd ../nullpomino-run/target/install/
-chmod +x ./play_swing
-./play_swing
-```
+### Why the name Nulltramino?
+- There are several meanings behind the name. 1st. N**ulltra**mino has ultra with a double ll in it, sounds cool and is distinct enough while making it obvious it's a fork of NullpoMino if you already know about NullpoMino. 2nd. tra for Trans. The game is transformed into something new and more fluid, signifying that the game is indeed different. 3rd. I am also trans and like the sneaky tra in the name :)
+
